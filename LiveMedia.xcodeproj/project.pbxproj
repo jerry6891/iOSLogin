@@ -8,12 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		0BB4FBE6207C36CD008F0E7C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BB4FBE5207C36CD008F0E7C /* AppDelegate.swift */; };
-		0BB4FBE8207C36CD008F0E7C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BB4FBE7207C36CD008F0E7C /* ViewController.swift */; };
-		0BB4FBEB207C36CD008F0E7C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0BB4FBE9207C36CD008F0E7C /* Main.storyboard */; };
+		0BB4FBE8207C36CD008F0E7C /* TabbedBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BB4FBE7207C36CD008F0E7C /* TabbedBarController.swift */; };
+		0BB4FBEB207C36CD008F0E7C /* TabbedBarController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0BB4FBE9207C36CD008F0E7C /* TabbedBarController.storyboard */; };
 		0BB4FBED207C36CF008F0E7C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0BB4FBEC207C36CF008F0E7C /* Assets.xcassets */; };
 		0BB4FBF0207C36CF008F0E7C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0BB4FBEE207C36CF008F0E7C /* LaunchScreen.storyboard */; };
 		0BB4FBFB207C36CF008F0E7C /* LiveMediaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BB4FBFA207C36CF008F0E7C /* LiveMediaTests.swift */; };
 		0BB4FC06207C36CF008F0E7C /* LiveMediaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BB4FC05207C36CF008F0E7C /* LiveMediaUITests.swift */; };
+		0BB4FC18207C39A1008F0E7C /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BB4FC17207C39A1008F0E7C /* LoginController.swift */; };
+		0BB4FC1A207C39BD008F0E7C /* LoginController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0BB4FC19207C39BD008F0E7C /* LoginController.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,8 +38,8 @@
 /* Begin PBXFileReference section */
 		0BB4FBE2207C36CD008F0E7C /* LiveMedia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LiveMedia.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0BB4FBE5207C36CD008F0E7C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		0BB4FBE7207C36CD008F0E7C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		0BB4FBEA207C36CD008F0E7C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0BB4FBE7207C36CD008F0E7C /* TabbedBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabbedBarController.swift; sourceTree = "<group>"; };
+		0BB4FBEA207C36CD008F0E7C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/TabbedBarController.storyboard; sourceTree = "<group>"; };
 		0BB4FBEC207C36CF008F0E7C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0BB4FBEF207C36CF008F0E7C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0BB4FBF1207C36CF008F0E7C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -47,6 +49,8 @@
 		0BB4FC01207C36CF008F0E7C /* LiveMediaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LiveMediaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0BB4FC05207C36CF008F0E7C /* LiveMediaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveMediaUITests.swift; sourceTree = "<group>"; };
 		0BB4FC07207C36CF008F0E7C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0BB4FC17207C39A1008F0E7C /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
+		0BB4FC19207C39BD008F0E7C /* LoginController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LoginController.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +101,9 @@
 		0BB4FBE4207C36CD008F0E7C /* LiveMedia */ = {
 			isa = PBXGroup;
 			children = (
-				0BB4FBE5207C36CD008F0E7C /* AppDelegate.swift */,
-				0BB4FBE7207C36CD008F0E7C /* ViewController.swift */,
-				0BB4FBE9207C36CD008F0E7C /* Main.storyboard */,
-				0BB4FBEC207C36CF008F0E7C /* Assets.xcassets */,
-				0BB4FBEE207C36CF008F0E7C /* LaunchScreen.storyboard */,
-				0BB4FBF1207C36CF008F0E7C /* Info.plist */,
+				0BB4FC14207C37E8008F0E7C /* AppDelegate */,
+				0BB4FC16207C3835008F0E7C /* Modules */,
+				0BB4FC13207C3791008F0E7C /* Utilities */,
 			);
 			path = LiveMedia;
 			sourceTree = "<group>";
@@ -123,6 +124,51 @@
 				0BB4FC07207C36CF008F0E7C /* Info.plist */,
 			);
 			path = LiveMediaUITests;
+			sourceTree = "<group>";
+		};
+		0BB4FC13207C3791008F0E7C /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				0BB4FBEC207C36CF008F0E7C /* Assets.xcassets */,
+				0BB4FBEE207C36CF008F0E7C /* LaunchScreen.storyboard */,
+				0BB4FBF1207C36CF008F0E7C /* Info.plist */,
+			);
+			name = Utilities;
+			sourceTree = "<group>";
+		};
+		0BB4FC14207C37E8008F0E7C /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				0BB4FBE5207C36CD008F0E7C /* AppDelegate.swift */,
+			);
+			name = AppDelegate;
+			sourceTree = "<group>";
+		};
+		0BB4FC15207C3816008F0E7C /* TabbedBar */ = {
+			isa = PBXGroup;
+			children = (
+				0BB4FBE7207C36CD008F0E7C /* TabbedBarController.swift */,
+				0BB4FBE9207C36CD008F0E7C /* TabbedBarController.storyboard */,
+			);
+			name = TabbedBar;
+			sourceTree = "<group>";
+		};
+		0BB4FC16207C3835008F0E7C /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				0BB4FC15207C3816008F0E7C /* TabbedBar */,
+				0BB4FC1B207C39C8008F0E7C /* Login */,
+			);
+			name = Modules;
+			sourceTree = "<group>";
+		};
+		0BB4FC1B207C39C8008F0E7C /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				0BB4FC17207C39A1008F0E7C /* LoginController.swift */,
+				0BB4FC19207C39BD008F0E7C /* LoginController.storyboard */,
+			);
+			name = Login;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,7 +277,8 @@
 			files = (
 				0BB4FBF0207C36CF008F0E7C /* LaunchScreen.storyboard in Resources */,
 				0BB4FBED207C36CF008F0E7C /* Assets.xcassets in Resources */,
-				0BB4FBEB207C36CD008F0E7C /* Main.storyboard in Resources */,
+				0BB4FC1A207C39BD008F0E7C /* LoginController.storyboard in Resources */,
+				0BB4FBEB207C36CD008F0E7C /* TabbedBarController.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,7 +303,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0BB4FBE8207C36CD008F0E7C /* ViewController.swift in Sources */,
+				0BB4FBE8207C36CD008F0E7C /* TabbedBarController.swift in Sources */,
+				0BB4FC18207C39A1008F0E7C /* LoginController.swift in Sources */,
 				0BB4FBE6207C36CD008F0E7C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -293,12 +341,12 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		0BB4FBE9207C36CD008F0E7C /* Main.storyboard */ = {
+		0BB4FBE9207C36CD008F0E7C /* TabbedBarController.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				0BB4FBEA207C36CD008F0E7C /* Base */,
 			);
-			name = Main.storyboard;
+			name = TabbedBarController.storyboard;
 			sourceTree = "<group>";
 		};
 		0BB4FBEE207C36CF008F0E7C /* LaunchScreen.storyboard */ = {
@@ -439,7 +487,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.gweb.LiveMedia;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -456,7 +504,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.gweb.LiveMedia;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
