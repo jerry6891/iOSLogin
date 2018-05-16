@@ -1,0 +1,6 @@
+framework module Pods_LiveMedia {
+  umbrella header "Pods-LiveMedia-umbrella.h"
+
+  export *
+  module * { export * }
+}

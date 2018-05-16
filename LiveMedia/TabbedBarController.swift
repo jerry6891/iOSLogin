@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Firebase
 
 class TabbedBarController: UITabBarController {
     override func viewDidLoad() {
@@ -14,9 +15,13 @@ class TabbedBarController: UITabBarController {
         perform(#selector(presentLogin), with: self, afterDelay: 0)
     }
     @objc func presentLogin(){
-        let storyboard = UIStoryboard(name: "LoginController", bundle: nil)
-        let controller = storyboard.instantiateInitialViewController() as!
-            LoginController
-        present(controller, animated: true, completion: nil)
+        if Auth.auth().currentUser == nil {
+         // Logged Out.
+            let storyboard = UIStoryboard(name: "LoginController", bundle: nil)
+            let controller = storyboard.instantiateInitialViewController()!
+            present(controller, animated: true, completion: nil)
+        }else {
+            // Logged In
+        }
     }
 }

@@ -17,11 +17,58 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="selectedImageTintColor" red="0.69439979398333351" green="0.24119916559999999" blue="0.1668418944" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </tabBar>
+                    <connections>
+                        <segue destination="xTg-iW-IMk" kind="relationship" relationship="viewControllers" id="dnc-Sg-ZgI"/>
+                        <segue destination="le7-dq-119" kind="relationship" relationship="viewControllers" id="vTT-Fy-O7J"/>
+                        <segue destination="1ep-Ii-Vlt" kind="relationship" relationship="viewControllers" id="QBV-cm-Iyc"/>
+                        <segue destination="JN3-nc-nka" kind="relationship" relationship="viewControllers" id="olJ-0U-7y4"/>
+                    </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="JXh-ST-bkV" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-250" y="86"/>
+        </scene>
+        <!--NearbyController-->
+        <scene sceneID="TOB-Jj-Nvl">
+            <objects>
+                <viewControllerPlaceholder storyboardName="NearbyController" id="xTg-iW-IMk" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Nearby" id="fBd-b9-jKI"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="goL-IC-ESe" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-858" y="538"/>
+        </scene>
+        <!--MeController-->
+        <scene sceneID="EKG-kY-Zci">
+            <objects>
+                <viewControllerPlaceholder storyboardName="MeController" id="le7-dq-119" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Me" id="H9Z-T0-LCq"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="XKV-eZ-DcR" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="376" y="538"/>
+        </scene>
+        <!--ChatController-->
+        <scene sceneID="GgJ-Ly-8dz">
+            <objects>
+                <viewControllerPlaceholder storyboardName="ChatController" id="1ep-Ii-Vlt" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Chat" id="Wt6-4s-Pnm"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="0wp-za-K7a" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="8" y="538"/>
+        </scene>
+        <!--FeedController-->
+        <scene sceneID="rlm-mM-8yf">
+            <objects>
+                <viewControllerPlaceholder storyboardName="FeedController" id="JN3-nc-nka" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Feed" id="GDM-Kd-bNL"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="6ah-lD-qCA" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-452" y="538"/>
         </scene>
     </scenes>
 </document>
